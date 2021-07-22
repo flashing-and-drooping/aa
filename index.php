@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+	
+	
+	
+	
+	
+	
+	FLASHING & DROOOPING
+	FLASHINGANDDROOPING.COM
+	
+	
+	
+	
+	
+	
+-->
+<head>
+
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script src="_scripts/jquery.js"></script>
+	<link rel="stylesheet" href="style.css?15">
+   <link rel="icon" type="image/png" href="favicon.png">
+	<title>Alex Abrahams</title>
+	<meta name="description" content="Director, New York, NY">
+	<meta name="keywords" content="film,commercial,director,new,york">
+
+	  <link href="http://vjs.zencdn.net/6.2.0/video-js.css" rel="stylesheet">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <!-- If you'd like to support IE8 -->
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+ <style>
+  	.video-js{
+  		display: none;
+  	}
+
+  	.video-js {
+  		position: fixed;
+  		top:0;left:0;
+  		width:100%;
+  		height:100%;
+  	}
+
+
+  </style>
+</head>
+<body>
+
+<header>
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 282.7 30.9" style="enable-background:new 0 0 282.7 30.9;" xml:space="preserve">
+<g>
+	<path d="M8.5,0.6h6.1l7.8,29.7h-5L15.6,23H6.9L5,30.3H0L8.5,0.6z M14.8,19.2L11.4,4.6h-0.1L7.7,19.2H14.8z"/>
+	<path d="M25.7,0.6h4.7v25.7H42v4H25.7V0.6z"/>
+	<path d="M45,0.6h16.1v4H49.7v8.2h10.7v4H49.7v9.5h11.7v4H45V0.6z"/>
+	<path d="M71.6,15.2L64.4,0.6h5.2l4.7,9.9l4.7-9.9h5.1L77,15.2l7.6,15.1h-5.2l-5.2-10.7l-5.3,10.7h-5.1L71.6,15.2z"/>
+	<path d="M101.9,0.6h6.1l7.8,29.7h-5l-1.8-7.3h-8.7l-1.9,7.3h-5L101.9,0.6z M108.3,19.2l-3.4-14.7h-0.1l-3.5,14.7H108.3z"/>
+	<path d="M118.9,0.6h9.6c4.4,0,8,2,8,7.2c0,3.6-1.4,5.8-4.4,6.7v0.1c3.2,0.6,5.3,2.5,5.3,7.6c0,5-3.6,8.1-9.2,8.1h-9.4V0.6z
+		 M127.4,13.1c2.9,0,4.4-1.9,4.4-4.7c0-3.5-2.1-4.2-4.8-4.2h-3.3v9H127.4z M128.3,26.7c2.8,0,4.4-1.8,4.4-5.2c0-3.2-1.9-5-4.7-5
+		h-4.4v10.3H128.3z"/>
+	<path d="M140.8,0.6h10.5c4.2,0,7.5,2.1,7.5,7.7c0,3.8-1.7,6.8-5,7.3v0.1c3,0.3,4.5,1.9,4.7,6.1c0,1.9,0.1,4.2,0.2,6
+		c0.1,1.5,0.8,2.2,1.4,2.6h-5.4c-0.5-0.5-0.7-1.5-0.8-2.6c-0.2-1.8-0.1-3.5-0.2-5.6c-0.1-3.2-1.1-4.7-4.3-4.7h-3.9v12.9h-4.7V0.6z
+		 M149.3,13.8c3,0,4.7-1.8,4.7-4.8c0-3.2-1.4-4.8-4.5-4.8h-4v9.7H149.3z"/>
+	<path d="M170.5,0.6h6.1l7.8,29.7h-5l-1.8-7.3h-8.7l-1.9,7.3h-5L170.5,0.6z M176.8,19.2l-3.4-14.7h-0.1l-3.5,14.7H176.8z"/>
+	<path d="M187.6,0.6h4.7v11.9h8.7V0.6h4.7v29.7h-4.7V16.5h-8.7v13.8h-4.7V0.6z"/>
+	<path d="M217.4,0.6h6.1l7.8,29.7h-5l-1.8-7.3h-8.7l-1.9,7.3h-5L217.4,0.6z M223.7,19.2l-3.4-14.7h-0.1l-3.5,14.7H223.7z"/>
+	<path d="M234.1,0.6h7.4l5.2,22h0.1l5.2-22h7.2v29.7h-4.5V5.6h-0.1l-6,24.7h-4l-6-24.7h-0.1v24.7h-4.5V0.6z"/>
+	<path d="M268.2,21.1v0.7c0,3.6,1.6,5.5,4.9,5.5c3,0,4.5-2.1,4.5-4.3c0-3.1-1.6-4.5-4.2-5.3l-3.2-1.1c-4.3-1.7-6.2-3.9-6.2-8.2
+		c0-5.4,3.7-8.4,9.2-8.4c7.6,0,8.4,4.7,8.4,7.8v0.7h-4.7V7.9c0-2.7-1.2-4.3-4.2-4.3c-2,0-4,1.1-4,4.3c0,2.5,1.3,3.8,4.5,5l3.2,1.2
+		c4.2,1.5,6,3.8,6,7.9c0,6.3-3.8,9-9.8,9c-7.4,0-9-4.9-9-9.1v-0.7H268.2z"/>
+</g>
+</svg>
+</header>
+
+ <video controls playsinline id="player-1" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/skittles.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+   <video controls playsinline id="player-2" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/grandma.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+   <video controls playsinline id="player-3" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/wework.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+    <video controls  playsinline id="player-4" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/starburst.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+   <video controls  playsinline id="player-5" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/spiketv.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+   <video controls  playsinline id="player-6" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/spiderman.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+  
+  
+  
+   <video controls  playsinline id="player-7" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/room-to-grow.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+  
+    <video controls  playsinline id="player-8" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/cryptozoo.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+    <video controls  playsinline id="player-9" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/hss.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+    <video controls  playsinline id="player-10" class="video-js"  preload="auto" width="640" height="264"
+ data-setup='{ "inactivityTimeout":  100 }'>
+    <source src="_videos/right.mp4" type='video/mp4'>
+    <p class="vjs-no-js">
+      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+  
+
+
+
+<div class="pause-icon"></div>
+
+<div class="laurels r">
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>SKITTLES<br>"CONTEST"</h1>
+	<h2 class="bottom">2017</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>“Visiting Grandma”<br>Short Film</h1>
+	<h2 class="bottom">2019</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>WEWORK<br>“Designed For You”</h1>
+	<h2 class="bottom">2018</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>Starburst<br>"Robot"</h1>
+	<h2 class="bottom">2017</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>PARAMOUNT NETWORK<br>“Therapy”</h1>
+	<h2 class="bottom">2018</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>CARTOON NETWORK<br>“SPIDERMAN”</h1>
+	<h2 class="bottom">2018</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>WEWORK<br>“ROOM TO GROW”</h1>
+	<h2 class="bottom">2018</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Editor –</h2>
+	<h1>"Cryptozoo"</h1>
+	<h2 class="bottom">2020</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Editor –</h2>
+	<h1>"My Entire High School<br>Sinking Into the Sea"</h1>
+	<h2 class="bottom">2017</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+<div class="laurel transition" data-index="0" >
+	<span class="l"><?php include("_assets/l.svg"); ?></span>
+	<h2 class="top">– Director –</h2>
+	<h1>Xavier<br>"It's Not Right"</h1>
+	<h2 class="bottom">2015</h2>
+	<span class="r"><?php include("_assets/r.svg"); ?></span>
+</div>
+
+</div>
+
+<section id="info">
+
+	<div class="centera">
+		<p >Alex is a director from West Virginia <nobr>based in New York.</nobr></p>
+		<a style="position:relative;float:left;clear:both;margin-top:35px;" href="mailto:contact@alexabrahams.com">contact@alexabrahams.com</a><br>
+
+
+    
+	</div>
+	
+</section>
+
+
+<footer >
+	Info
+</footer> 
+
+  <script src="http://vjs.zencdn.net/6.2.0/video.js"></script>
+  <script src="fastclick.js"></script>
+  <script src="scripts.js?12"></script>
+  <script>
+	FastClick.attach(document.body);
+
+  var player1 = videojs('player-1');
+  var player2 = videojs('player-2');
+  var player3 = videojs('player-3');
+  var player4 = videojs('player-4');
+  var player5 = videojs('player-5');
+  var player6 = videojs('player-6');
+  var player7 = videojs('player-7');
+  var player8 = videojs('player-8');
+  var player9 = videojs('player-9');
+  var player10 = videojs('player-10');
+
+  var first = 0;
+  var curr = "";
+
+  function same(){
+  	$(".laurel").hide();
+  	$("body").removeClass("paused");
+
+    setTimeout(function(){
+      $(".laurels").addClass("active");
+    },1000);
+    
+  }
+
+    var r = 0;                     
+    
+    function reLoop() {        
+    
+       setTimeout(function () {   
+    
+          $(".laurel").eq(r).addClass("loaded"); 
+          r++;    
+    
+          if (r <  $(".laurel").length) {           
+             reLoop();             
+          }else{
+            $(".laurel").removeClass("transition") 
+          }                        
+       }, 75)
+    }
+
+
+  	$(".laurel").eq(0).click(function(){
+
+      $("body").addClass("video");
+
+  		curr = 0;
+  		player1.currentTime(0);
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player1.play();
+      }
+
+      player1.ready(function(){
+          player1.play();
+      });
+
+      player1.on('ended', function() {
+
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+  		$(".video-js").hide()
+  		$("#player-1").show()
+  		$("body").addClass("w")
+  		same();
+  	});
+  	$(".laurel").eq(1).click(function(){
+
+      $("body").addClass("video");
+
+  		curr = 1
+  		player1.pause();
+  		player2.currentTime(0)
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player2.play();
+      }
+
+      player2.ready(function(){
+          
+          player2.play();
+      });
+
+      player2.on('ended', function() {
+
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-2").show()
+  		$("body").addClass("w")
+  		same()
+  	})
+  	$(".laurel").eq(2).click(function(){
+
+      $("body").addClass("video");
+
+  		curr = 2;
+  		player1.pause();
+  		player2.pause();
+  		player3.currentTime(0);
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player3.play();
+      }
+
+      player3.ready(function(){
+          
+          player3.play();
+      });
+
+      player3.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-3").show()
+  		$("body").addClass("w")
+  		same()
+  	})
+  	$(".laurel").eq(3).click(function(){
+
+      $("body").addClass("video");
+
+  		curr = 3;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.currentTime(0);
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player4.play();
+      }
+
+      player4.ready(function(){
+          
+          player4.play();
+      });
+
+      player4.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-4").show()
+  		$("body").addClass("w")
+  		same()
+  	})
+
+
+
+  	$(".laurel").eq(4).click(function(){
+
+
+      $("body").addClass("video");
+
+  		curr = 4;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.currentTime(0);
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player5.play();
+      }
+
+      player5.ready(function(){
+          
+          player5.play();
+      });
+
+      player5.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-5").show()
+  		$("body").addClass("w")
+  		same();
+
+  	});
+  	
+  	
+  	
+  	$(".laurel").eq(5).click(function(){
+
+
+      $("body").addClass("video");
+
+  		curr = 5;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.currentTime(0);
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player6.play();
+      }
+
+      player6.ready(function(){
+          
+          player6.play();
+      });
+
+      player6.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-6").show()
+  		$("body").addClass("w")
+  		same();
+
+  	});
+  	
+  	$(".laurel").eq(6).click(function(){
+
+
+      $("body").addClass("video");
+
+  		curr = 6;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.currentTime(0);
+  		player8.pause();
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player7.play();
+      }
+
+      player7.ready(function(){
+          
+          player7.play();
+      });
+
+      player7.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-7").show()
+  		$("body").addClass("w")
+  		same();
+
+  	});
+  	
+  	
+  	$(".laurel").eq(7).click(function(){
+
+
+      $("body").addClass("video");
+
+  		curr = 7;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.currentTime(0);
+  		player9.pause();
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player8.play();
+      }
+
+      player8.ready(function(){
+          
+          player8.play();
+      });
+
+      player8.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-8").show()
+  		$("body").addClass("w")
+  		same();
+
+  	});
+  	
+  	
+  	$(".laurel").eq(8).click(function(){
+
+
+      $("body").addClass("video");
+
+  		curr = 8;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.currentTime(0);
+  		player10.pause();
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player9.play();
+      }
+
+      player9.ready(function(){
+          
+          player9.play();
+      });
+
+      player9.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-9").show()
+  		$("body").addClass("w")
+  		same();
+
+  	});
+
+  	$(".laurel").eq(9).click(function(){
+
+console.log("hit")
+
+      $("body").addClass("video");
+
+  		curr = 9;
+  		player1.pause();
+  		player2.pause();
+  		player3.pause();
+  		player4.pause();
+  		player5.pause();
+  		player6.pause();
+  		player7.pause();
+  		player8.pause();
+  		player9.pause();
+  		player10.currentTime(0);
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        player10.play();
+      }
+
+      player10.ready(function(){
+          
+          player10.play();
+      });
+
+      player10.on('ended', function() {
+
+        $(".laurel").removeClass("loaded");
+        $(".laurel").addClass("transition");
+        $(".laurel").show();
+        r = 0;
+        reLoop()
+        check()
+
+      });
+
+
+  		$(".video-js").hide()
+  		$("#player-10").show()
+  		$("body").addClass("w")
+  		same();
+
+  	});
+
+
+
+
+
+document.body.onkeyup = function(e){
+    if(e.keyCode == 32){
+        if($("body").hasClass("w")){
+          playPause();
+        }
+    }
+}
+
+
+function playPause(){
+
+check()
+
+    if($("body").hasClass("paused")){
+
+      if(curr == 0){
+        player1.play()
+      }
+      if(curr == 1){
+        player2.play()
+      }
+      if(curr == 2){
+        player3.play()
+      }
+      if(curr == 3){
+        player4.play()
+      }
+      if(curr == 4){
+        player5.play()
+      }
+      if(curr == 5){
+        player6.play()
+      }
+      if(curr == 6){
+        player7.play()
+      }
+      if(curr == 7){
+        player8.play()
+      }
+      if(curr == 8){
+        player9.play()
+      }
+      if(curr == 9){
+        player10.play()
+      }
+
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $(".pause-icon").hide()
+      }else{
+        $(".laurel").hide()
+      }
+      
+        $("body").removeClass("paused")
+
+    }else{
+
+      if(curr == 0){
+        player1.pause()
+      }
+      if(curr == 1){
+        player2.pause()
+      }
+      if(curr == 2){
+        player3.pause()
+      }
+      if(curr == 3){
+        player4.pause()
+      }
+      if(curr == 4){
+        player5.pause()
+      }
+      if(curr == 5){
+        player6.pause()
+      }
+      if(curr == 6){
+        player7.pause()
+      }
+      if(curr == 7){
+        player8.pause()
+      }
+      if(curr == 8){
+        player9.pause()
+      }
+      if(curr == 9){
+        player10.pause()
+      }
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $(".pause-icon").show()
+      }else{
+        $(".laurel").show()
+      }
+
+
+        $("body").addClass("paused");
+
+      
+    }
+}
+
+  	$(".video-js video").on("click",function(){
+  	
+  	
+
+      playPause();
+  	check()
+  		
+
+  	});
+
+
+    $(".video-js ").on("touchend",function(){
+
+      playPause();
+      
+
+    });
+
+
+
+
+
+// var words = [
+// 	"Brilliant",
+// 	"Groundbreaking",
+// 	"Provocative",
+// 	"Best",
+// 	"Revolutionary",
+// 	"Winner",
+// 	"Grand Prize",
+// 	"Two Thumbs Up",
+// 	"Two Thumbs Way Up",
+// 	"Powerful",
+// 	"A masterpiece",
+// 	"Emotional Gut Punch",
+// 	"Pure Genius",
+// 	"Moving",
+// 	"Winner",
+// 	"Important",
+// 	"★★★★",
+// ];
+
+
+// $(".laurel").on("mouseenter mouseleave touchstart", function(){
+
+// 	if($(this).attr("data-index") < 10){
+	
+// 		if($(this).hasClass("first")){
+	
+// 			var word = words[Math.floor(Math.random()*words.length)];
+	
+// 			if( $(window).width() < 600) {
+// 				var style = "style='font-size:"+(Math.random()*17 + 5)+"px;'";
+// 			}else{
+// 				var style = "style='font-size:"+(Math.random()*12 + 10)+"px;'";
+// 			}
+		
+// 			if($(this).hasClass("a")){
+// 				$(this).prepend("<div class='add' "+style+">"+word+"</div>");
+// 				$(this).removeClass("a");
+		
+// 			}else{
+// 				$(this).append("<div class='add' "+style+">"+word+"</div>");
+// 				$(this).addClass("a");
+// 			}
+	
+// 		}else{
+	
+// 			$(this).prepend("<div class='add' style='font-size:16px'>Official Selection</div>");
+// 			$(this).addClass("first");
+	
+// 		}
+	
+// 		var a = parseInt($(this).attr("data-index"));
+// 		var b = a + 1
+
+//     if( b > 8 ){
+//       $(".laurels").addClass("fix");
+//     }
+	
+// 		$(this).attr("data-index",b);
+
+// 	}
+
+// });
+
+
+// var words = [
+// 	"Brilliant",
+// 	"Groundbreaking",
+// 	"Provocative",
+// 	"Best",
+// 	"Revolutionary",
+// 	"Winner",
+// 	"Grand Prize",
+// 	"Two Thumbs Up",
+// 	"Two Thumbs Way Up",
+// 	"Powerful",
+// 	"A masterpiece",
+// 	"Emotional Gut Punch",
+// 	"Pure Genius",
+// 	"Moving",
+// 	"Winner",
+// 	"Important",
+// 	"★★★★",
+// ];
+
+
+// $(".laurel").on("mouseenter mouseleave", function(){
+
+// 	if($(this).attr("data-index") < 10){
+	
+// 		if($(this).hasClass("first")){
+	
+// 			var word = words[Math.floor(Math.random()*words.length)];
+	
+// 			if( $(window).width() < 600) {
+// 				var style = "style='font-size:"+(Math.random()*17 + 5)+"px;'";
+// 			}else{
+// 				var style = "style='font-size:"+(Math.random()*12 + 10)+"px;'";
+// 			}
+		
+// 			if($(this).hasClass("a")){
+// 				$(this).prepend("<div class='add' "+style+">"+word+"</div>");
+// 				$(this).removeClass("a");
+		
+// 			}else{
+// 				$(this).append("<div class='add' "+style+">"+word+"</div>");
+// 				$(this).addClass("a");
+// 			}
+	
+// 		}else{
+	
+// 			$(this).prepend("<div class='add' style='font-size:16px'>Official Selection</div>");
+// 			$(this).addClass("first");
+	
+// 		}
+	
+// 		var a = parseInt($(this).attr("data-index"));
+// 		var b = a + 1
+	
+// 		$(this).attr("data-index",b);
+
+// 	}
+
+// });
+
+    function pauseAll(){
+
+      if(curr == 0){
+        player1.pause()
+      }
+      else if(curr == 1){
+        player2.pause()
+      }
+      else if(curr == 2){
+        player3.pause()
+      }
+      else if(curr == 3){
+        player4.pause()
+      }
+      else if(curr == 4){
+        player5.pause()
+      }
+      else if(curr == 5){
+        player6.pause()
+      }
+      else if(curr == 6){
+        player7.pause()
+      }else if(curr == 7){
+        player8.pause()
+      }else if(curr == 8){
+        player9.pause()
+      }else if(curr == 9){
+        player10.pause()
+      }else{
+        pauseAll()
+      }
+    }
+
+    function reset(){
+
+      console.log("reset");
+
+      $(".add").remove();
+      $(".laurel").attr("data-index","0");
+      $(".laurel").removeClass("first")
+
+    }
+
+
+  	$("header").click(function(){
+
+      $(".pause-icon").hide()
+      $(".laurels").removeClass("r")
+
+      $("body").removeClass("video");
+      $("html,body").css("background","white")
+
+      reset()
+  		$(".video-js").hide();
+  		$(".laurel").show();
+  		$("body").removeClass("w");
+
+      $("footer").text("Info")
+      
+      
+      // console.log("curr"+curr)
+
+  		$("header,footer").removeClass("info");
+  		$("#info").hide();
+
+      pauseAll();
+      
+      
+  	check()
+
+  	});
+
+
+
+
+$("footer").on("click",function(){
+
+  $(".pause-icon").hide()
+
+	if($(this).hasClass("open")){
+
+
+     $("html,body").css("background","white")
+
+    if($("body").hasClass("paused")){
+
+      $(".laurel").show();
+      $("body").addClass("w");
+
+      $("header,footer").removeClass("info");
+      $("#info").hide();
+
+      $("footer").text("Info")
+      $(this).removeClass("open")
+
+    }else if($("body").hasClass("video")){
+
+      if(curr == 0){
+        player1.play()
+      }
+      if(curr == 1){
+        player2.play()
+      }
+      if(curr == 2){
+        player3.play()
+      }
+      if(curr == 3){
+        player4.play()
+      }
+      if(curr == 4){
+        player5.play()
+      }
+      if(curr == 5){
+        player6.play()
+      }
+      if(curr == 6){
+        player7.play()
+      }
+      if(curr == 7){
+        player8.play()
+      }
+      if(curr == 8){
+        player9.play()
+      }
+      if(curr == 9){
+        player10.play()
+      }
+
+
+
+    // $(".video-js").hide();
+      $(".laurel").hide();
+      $("body").addClass("w");
+
+      $("header,footer").removeClass("info");
+      $("#info").hide();
+
+      $("footer").text("Info")
+      $(this).removeClass("open")
+    }else{
+
+
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      
+      }else{
+        $(".laurel").show();
+      }
+      $(".laurel").show();
+      $("body").removeClass("w");
+
+      $("header,footer").removeClass("info");
+      $("#info").hide();
+
+      $("footer").text("Info")
+      $(this).removeClass("open")
+
+    }
+
+
+	}else{
+
+    $("html,body").css("background","blue")
+
+		$("#info").show();
+		$("header,footer").addClass("info");
+		$(".laurel").hide();
+		$("body.w").removeClass("w");
+
+    pauseAll()
+
+  	$(this).addClass("open")
+  	$("footer").text("close")
+	}
+	
+	
+  	check()
+});
+
+
+  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105958420-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
+
+<!-- <script src="mousehold.js"></script> -->
+
+
+
+
+</body>
+</html>
