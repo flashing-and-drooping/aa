@@ -379,7 +379,7 @@ transform:none;
 	transform:translateX(-50%);
 }
 
-.l svg{
+.l img{
 	position: absolute;
 	top:50%;left:-40px;
 	transform:translateY(-50%);
@@ -390,7 +390,7 @@ transform:none;
 	pointer-events: none;
 }
 
-.r svg{
+.r img{
 	position: absolute;
 	top:50%;right:-40px;
 	transform:translateY(-50%);
@@ -401,12 +401,12 @@ transform:none;
 	pointer-events: none;
 }
 
-#info .l svg{
+#info .l img{
 	max-height:150px;
 	max-width:100px;
 }
 
-#info .r svg{
+#info .r img{
 	max-height:150px;
 	max-width:100px;
 }
