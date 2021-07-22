@@ -43,16 +43,16 @@
 
 @font-face {
 	font-family: 'HelveticaNeueLTStd-MdCn';
-	src: url('../_assets/fonts/HelveticaNeueLTStd-MdCn.eot');
-	src: local('☺'), url('../_assets/fonts/HelveticaNeueLTStd-MdCn.woff') format('woff'), url('../_assets/fonts/HelveticaNeueLTStd-MdCn.ttf') format('truetype'), url('../_assets/fonts/HelveticaNeueLTStd-MdCn.svg') format('svg');
+	src: url('assets/fonts/HelveticaNeueLTStd-MdCn.eot');
+	src: local('☺'), url('assets/fonts/HelveticaNeueLTStd-MdCn.woff') format('woff'), url('assets/fonts/HelveticaNeueLTStd-MdCn.ttf') format('truetype'), url('assets/fonts/HelveticaNeueLTStd-MdCn.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'HelveticaNeueLTStd-Cn';
-	src: url('../_assets/fonts/HelveticaNeueLTStd-Cn.eot');
-	src: local('☺'), url('../_assets/fonts/HelveticaNeueLTStd-Cn.woff') format('woff'), url('../_assets/fonts/HelveticaNeueLTStd-Cn.ttf') format('truetype'), url('../_assets/fonts/HelveticaNeueLTStd-Cn.svg') format('svg');
+	src: url('assets/fonts/HelveticaNeueLTStd-Cn.eot');
+	src: local('☺'), url('assets/fonts/HelveticaNeueLTStd-Cn.woff') format('woff'), url('assets/fonts/HelveticaNeueLTStd-Cn.ttf') format('truetype'), url('assets/fonts/HelveticaNeueLTStd-Cn.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -163,7 +163,7 @@ header.info svg{
 		position: absolute;
 		height:200px;width:200px;
 		margin:-100px;
-		background:url(../_assets/laurel.svg) center/cover;
+		background:url(assets/laurel.svg) center/cover;
 		z-index:9;
 	}
 
